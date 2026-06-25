@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data and Models
+data/*.csv
+data/*.zip
+models/*.joblib
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
