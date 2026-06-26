@@ -1,0 +1,41 @@
+[2026-06-18T16:16:38.358+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-18T16:16:38.402+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_pipeline_with_mlflow.train_gradient_boosting manual__2026-06-18T16:16:16.706402+00:00 [queued]>
+[2026-06-18T16:16:38.425+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_pipeline_with_mlflow.train_gradient_boosting manual__2026-06-18T16:16:16.706402+00:00 [queued]>
+[2026-06-18T16:16:38.427+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-06-18T16:16:38.506+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): train_gradient_boosting> on 2026-06-18 16:16:16.706402+00:00
+[2026-06-18T16:16:38.554+0000] {standard_task_runner.py:72} INFO - Started process 2430 to run task
+[2026-06-18T16:16:38.607+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ml_pipeline_with_mlflow', 'train_gradient_boosting', 'manual__2026-06-18T16:16:16.706402+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/full_pipeline.py', '--cfg-path', '/tmp/tmp7s7otyuu']
+[2026-06-18T16:16:38.638+0000] {standard_task_runner.py:105} INFO - Job 12: Subtask train_gradient_boosting
+[2026-06-18T16:16:38.994+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_pipeline_with_mlflow.train_gradient_boosting manual__2026-06-18T16:16:16.706402+00:00 [running]> on host 7c322b6c4560
+[2026-06-18T16:16:39.282+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ml_team' AIRFLOW_CTX_DAG_ID='ml_pipeline_with_mlflow' AIRFLOW_CTX_TASK_ID='train_gradient_boosting' AIRFLOW_CTX_EXECUTION_DATE='2026-06-18T16:16:16.706402+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-18T16:16:16.706402+00:00'
+[2026-06-18T16:16:39.285+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-18T16:16:39.327+0000] {logging_mixin.py:190} INFO -  Training Gradient Boosting...
+[2026-06-18T16:16:39.772+0000] {logging_mixin.py:190} WARNING - 2026/06/18 16:16:39 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-06-18T16:17:00.304+0000] {logging_mixin.py:190} WARNING - 2026/06/18 16:17:00 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2026-06-18T16:17:00.598+0000] {credentials.py:1124} INFO - Found credentials in environment variables.
+[2026-06-18T16:17:01.406+0000] {logging_mixin.py:190} INFO -  Gradient Boosting trained!
+[2026-06-18T16:17:01.408+0000] {logging_mixin.py:190} INFO -   Run ID: 2ee345d0492846d78b520db1a1899f7e
+[2026-06-18T16:17:01.410+0000] {logging_mixin.py:190} INFO -   Test Accuracy: 0.9000
+[2026-06-18T16:17:01.538+0000] {logging_mixin.py:190} WARNING - 2026/06/18 16:17:01 INFO mlflow.tracking._tracking_service.client: 🏃 View run GradientBoosting at: http://mlflow:5001/#/experiments/1/runs/2ee345d0492846d78b520db1a1899f7e.
+[2026-06-18T16:17:01.540+0000] {logging_mixin.py:190} WARNING - 2026/06/18 16:17:01 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5001/#/experiments/1.
+[2026-06-18T16:17:01.593+0000] {python.py:240} INFO - Done. Returned value was: {'train_accuracy': 1.0, 'test_accuracy': 0.9, 'test_precision': 0.9048994350282485, 'test_recall': 0.9, 'test_f1': 0.9003129890453834}
+[2026-06-18T16:17:01.651+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-18T16:17:01.656+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ml_pipeline_with_mlflow, task_id=train_gradient_boosting, run_id=manual__2026-06-18T16:16:16.706402+00:00, execution_date=20260618T161616, start_date=20260618T161638, end_date=20260618T161701
+[2026-06-18T16:17:01.718+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-18T16:17:01.764+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-18T16:17:01.768+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

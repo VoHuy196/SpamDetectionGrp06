@@ -1,0 +1,126 @@
+[2026-03-03T00:08:20.517+0000] {processor.py:186} INFO - Started process (PID=3196) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:08:20.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T00:08:20.523+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:08:20.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:08:21.637+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:08:21.659+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:08:21.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T00:08:21.677+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:08:21.676+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T00:08:21.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 1.184 seconds
+[2026-03-03T00:25:26.494+0000] {processor.py:186} INFO - Started process (PID=3509) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:25:26.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T00:25:26.498+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:25:26.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:25:27.309+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:25:27.330+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:25:27.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T00:25:27.343+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:25:27.343+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T00:25:27.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.868 seconds
+[2026-03-03T00:32:47.405+0000] {processor.py:186} INFO - Started process (PID=3541) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:32:47.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T00:32:47.411+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:32:47.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:32:48.265+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:32:48.285+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:32:48.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T00:32:48.299+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:32:48.299+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T00:32:48.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.912 seconds
+[2026-03-03T00:33:18.781+0000] {processor.py:186} INFO - Started process (PID=3579) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:33:18.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T00:33:18.786+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:33:18.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:33:19.564+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:33:19.577+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:33:19.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T00:33:19.590+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:33:19.590+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T00:33:19.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.832 seconds
+[2026-03-03T00:54:05.921+0000] {processor.py:186} INFO - Started process (PID=3605) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:54:05.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T00:54:05.926+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:54:05.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:54:06.798+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T00:54:06.819+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:54:06.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T00:54:06.834+0000] {logging_mixin.py:190} INFO - [2026-03-03T00:54:06.834+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T00:54:06.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.935 seconds
+[2026-03-03T01:09:45.759+0000] {processor.py:186} INFO - Started process (PID=3637) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:09:45.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T01:09:45.768+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:09:45.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:09:46.608+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:09:46.621+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:09:46.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T01:09:46.632+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:09:46.632+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T01:09:46.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.889 seconds
+[2026-03-03T01:55:02.127+0000] {processor.py:186} INFO - Started process (PID=3669) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:55:02.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T01:55:02.130+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:55:02.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:55:02.876+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T01:55:02.891+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:55:02.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T01:55:02.903+0000] {logging_mixin.py:190} INFO - [2026-03-03T01:55:02.903+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T01:55:02.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.793 seconds
+[2026-03-03T02:11:43.125+0000] {processor.py:186} INFO - Started process (PID=3700) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:11:43.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T02:11:43.174+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:11:43.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:11:43.984+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:11:43.998+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:11:43.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T02:11:44.011+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:11:44.011+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T02:11:44.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.903 seconds
+[2026-03-03T02:12:14.628+0000] {processor.py:186} INFO - Started process (PID=3737) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:12:14.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T02:12:14.631+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:12:14.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:12:15.392+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:12:15.409+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:12:15.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T02:12:15.421+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:12:15.421+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T02:12:15.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.814 seconds
+[2026-03-03T02:55:49.687+0000] {processor.py:186} INFO - Started process (PID=3763) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:55:49.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T02:55:49.689+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:55:49.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:55:50.588+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:55:50.621+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:55:50.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T02:55:50.642+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:55:50.642+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T02:55:50.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.981 seconds
+[2026-03-03T02:56:21.211+0000] {processor.py:186} INFO - Started process (PID=3801) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:56:21.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T02:56:21.216+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:56:21.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:56:22.094+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T02:56:22.111+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:56:22.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T02:56:22.124+0000] {logging_mixin.py:190} INFO - [2026-03-03T02:56:22.124+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T02:56:22.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.930 seconds
+[2026-03-03T03:23:58.686+0000] {processor.py:186} INFO - Started process (PID=3827) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:23:58.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T03:23:58.689+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:23:58.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:23:59.576+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:23:59.591+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:23:59.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T03:23:59.606+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:23:59.606+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T03:23:59.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.939 seconds
+[2026-03-03T03:26:30.374+0000] {processor.py:186} INFO - Started process (PID=3859) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:26:30.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T03:26:30.380+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:26:30.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:26:31.245+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:26:31.266+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:26:31.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T03:26:31.283+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:26:31.283+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T03:26:31.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.932 seconds
+[2026-03-03T03:43:02.793+0000] {processor.py:186} INFO - Started process (PID=3891) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:43:02.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T03:43:02.795+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:43:02.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:43:03.542+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:43:03.557+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:43:03.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T03:43:03.571+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:43:03.570+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T03:43:03.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.793 seconds
+[2026-03-03T03:57:13.067+0000] {processor.py:186} INFO - Started process (PID=3923) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:57:13.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T03:57:13.071+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:57:13.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:57:13.794+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T03:57:13.810+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:57:13.810+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T03:57:13.825+0000] {logging_mixin.py:190} INFO - [2026-03-03T03:57:13.824+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T03:57:13.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.775 seconds
+[2026-03-03T04:07:06.435+0000] {processor.py:186} INFO - Started process (PID=3955) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:06.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T04:07:06.442+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:06.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:07.523+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:07.560+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:07.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T04:07:07.594+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:07.594+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T04:07:07.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 1.188 seconds
+[2026-03-03T04:07:38.144+0000] {processor.py:186} INFO - Started process (PID=3993) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:38.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T04:07:38.150+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:38.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:38.969+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:07:38.986+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:38.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T04:07:38.998+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:07:38.998+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T04:07:39.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 0.875 seconds
+[2026-03-03T04:08:21.022+0000] {processor.py:186} INFO - Started process (PID=4019) to work on /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:08:21.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/simple_pipeline.py for tasks to queue
+[2026-03-03T04:08:21.034+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:08:21.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:08:22.609+0000] {processor.py:925} INFO - DAG(s) 'simple_mlflow_experiment' retrieved from /opt/airflow/dags/simple_pipeline.py
+[2026-03-03T04:08:22.624+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:08:22.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-03-03T04:08:22.639+0000] {logging_mixin.py:190} INFO - [2026-03-03T04:08:22.639+0000] {dag.py:4180} INFO - Setting next_dagrun for simple_mlflow_experiment to 2026-03-03 00:00:00+00:00, run_after=2026-03-04 00:00:00+00:00
+[2026-03-03T04:08:22.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/simple_pipeline.py took 1.650 seconds

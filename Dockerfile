@@ -1,21 +1,16 @@
-FROM python:3.11-slim
+FROM apache/airflow:2.10.2-python3.10
 
-# Prevent Python from writing pyc files and enable unbuffered stdout/stderr
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+USER root
 
-WORKDIR /app
+# Install system dependencies if needed
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    build-essential \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+USER airflow
 
-# Copy source code and pre-trained models
-COPY src/ ./src/
-COPY models/ ./models/
-
-# Expose FastAPI default port
-EXPOSE 8000
-
-# Command to run FastAPI server
-CMD ["uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Install Python packages
+COPY requirements.txt /requirements.txt
+RUN pip install --no-cache-dir -r /requirements.txt
